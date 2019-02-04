@@ -1,5 +1,5 @@
 class Item
-  attr_accessor :name, :price
+  attr_accessor :price, :name
 
   def initialize(name, price)
     @name = name
